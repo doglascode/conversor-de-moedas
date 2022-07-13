@@ -34,3 +34,9 @@ body {
 .converted-value {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 980px) {
+  .modal-container {
+    width: 95%;
+  }
+}
