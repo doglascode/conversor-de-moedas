@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #ECECEC;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+}
+.modal-container {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 2.5rem;
+  width: 35vw;
+}
+.exchange-rate-info {
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+.exchange-rate-info .currency-precision {
+  font-weight: normal;
+  margin: .3rem 0;
+}
+.exchange-rate-info .currency-update {
+  font-size: .9rem;
+}
+.currency-container,
+.currency-selector {
+  margin-top: 1rem;
+}
+.converted-value {
+  font-size: 1.5rem;
+}
